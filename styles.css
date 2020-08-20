@@ -29,7 +29,13 @@ ol {
 
 /* Tablet sizes i'm guesssing */
 @media only screen and (min-width: 601px) and (max-width: 991px) {
-  h1 {
+  .title {
+    font-size: 6rem;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+  p {
     font-size: 6rem;
   }
 }

@@ -14,3 +14,22 @@ ul {
 ol {
   margin-top:2rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  p {
+    font-size: 3rem;
+  }
+}
+
+/* Tablet sizes i'm guesssing */
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+  h1 {
+    font-size: 6rem;
+  }
+}
